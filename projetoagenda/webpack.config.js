@@ -31,5 +31,5 @@ module.exports = {
       use: ['style-loader', 'css-loader']
     }]
   },
-  devtool: 'source-map'
+  devtool: 'eval-source-map'
 };
