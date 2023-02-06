@@ -17,5 +17,6 @@ module.exports = {
     'import/no-extraneous-dependencies': 'off',
     'import/newline-after-import': 'off',
     'eslint-disable-next-line': 'off',
+    'no-param-reassign': 'off',
   },
 };
