@@ -31,7 +31,6 @@ module.exports = {
     );
   },
 
-  // async down() => {
-
-  // },
+  // eslint-disable-next-line no-empty-function
+  async down() {},
 };
