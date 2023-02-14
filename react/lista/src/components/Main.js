@@ -9,7 +9,7 @@ import './Main.css';
 export default class Main extends Component {
   state = {
     novaTarefa: '',
-    tarefas: ['Fazer café', 'Beber água', 'Estudar']
+    tarefas: []
   };
 
   handleChange = (e) => {
@@ -36,10 +36,10 @@ export default class Main extends Component {
           {tarefas.map((tarefa) => (
             <li key={tarefa}>
               {tarefa}
-              <div>
+              <span>
                 <FaEdit className="edit" />
                 <FaWindowClose className="delete" />
-              </div>
+              </span>
             </li>
           ))}
         </ul>
