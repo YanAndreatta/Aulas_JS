@@ -11,7 +11,7 @@ export default function Login() {
   function handleCLick(e) {
     e.preventDefault();
 
-    dispatch(exampleActions.clicaBotao());
+    dispatch(exampleActions.clicaBotaoRequest());
   }
 
   return (
