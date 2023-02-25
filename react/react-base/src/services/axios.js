@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-  baseURL: 'https://api.yanandreatta.tech/',
+  baseURL: 'COLOQUE_SUA_URL_AQUI',
 });
