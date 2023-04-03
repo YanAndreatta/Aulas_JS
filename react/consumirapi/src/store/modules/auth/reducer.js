@@ -14,7 +14,7 @@ export default function reducer(state = initialState, action) {
       const newState = { ...state };
       newState.isLoggedIn = true;
       newState.token = action.payload.token;
-      newState.user = action.user;
+      newState.user = action.payload.user;
       newState.isLoading = false;
       return newState;
     }

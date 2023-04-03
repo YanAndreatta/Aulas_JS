@@ -29,7 +29,13 @@ function persisRehydrate({ payload }) {
   axios.defaults.headers.Authorization = `Bearer ${token}`;
 }
 
+// eslint-disable-next-line no-unused-vars
+function registerRequest({ payload }) {
+  // const {id, nome, email, password} = payload;
+}
+
 export default all([
   takeLatest(types.LOGIN_REQUEST, loginRequest),
   takeLatest(types.PERSIST_REHYDRATE, persisRehydrate),
+  takeLatest(types.REGISTER_REQUEST, registerRequest),
 ]);
